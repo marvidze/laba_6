@@ -44,6 +44,7 @@
             buttonFunc.TabIndex = 0;
             buttonFunc.Text = "Найти среднее значение вектора";
             buttonFunc.UseVisualStyleBackColor = true;
+            buttonFunc.Click += buttonFunc_Click;
             // 
             // buttonGetTime
             // 
@@ -54,6 +55,7 @@
             buttonGetTime.TabIndex = 0;
             buttonGetTime.Text = "Вывести системное время";
             buttonGetTime.UseVisualStyleBackColor = true;
+            buttonGetTime.Click += buttonGetTime_Click;
             // 
             // button
             // 
